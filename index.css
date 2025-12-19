@@ -1,0 +1,1689 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 4000px;
+}
+header{
+    width:100%;
+    height:100px;
+    background-color:rgb(249, 245, 240);
+    position:sticky;
+    top:0px; 
+    z-index: 1;
+    }
+
+nav{
+    height:100%;
+    width:100%;
+}
+
+.blinkit{
+    font-size: 40px;
+    padding: 12px;
+    /* margin-left: 30px; */
+    list-style-type: none;
+    
+}
+
+.blinkit-color{
+    text-decoration: none;
+    color:rgb(253, 220, 6);
+   font-weight:bolder;
+}
+
+.it-color{
+    color: rgb(3, 214, 3);
+}
+
+ul{
+    display:flex;
+   
+    justify-content: space-evenly;
+    align-items: center;
+    
+  
+}
+
+.deliver-timing{
+    font-weight: bolder;
+    font-size: 20px;
+    padding:20px;
+}
+
+.select-address{
+    border:none;
+    font-weight:lighter;
+    font-size:15px;
+}
+
+.address{
+    text-decoration: none;
+    color:black;
+}
+
+button{
+    border:none;
+    font-size: 15px;   
+}
+
+label{
+    width:40%;
+    height:50px;
+    margin-top:25px;
+}
+
+.search{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    border:lightgrey;
+    margin-top: -70px;  
+}
+
+/* .serach-icon{
+    position: relative;
+    top:28px;
+    left:5px;
+    font-size: 20px;
+} */
+
+.login{
+    border: none;
+    width:100px;
+    height:45px;
+    border-radius: 5px;
+    background-color: rgb(3, 214, 3);
+    padding:10px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.card{
+     border: none;
+    width:60%;
+    height:45px;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.463);
+    padding:10px;
+    text-align:center;
+    margin-right: 50px;
+    
+   
+}
+
+/* .card-shopping-icon{
+    position:relative;
+    top:12px;
+    left:80px;
+    font-size: 20px;
+   
+} */
+
+
+.input1{
+    width:95%;
+    height:40px;
+    border: none;
+    display: none;
+}
+
+
+
+
+/* --------navbar---------- */
+
+.main-scroll-bar{
+    width:100%;
+    height:60px;
+    background:rgb(249, 245, 240);
+    display: flex;
+    justify-content: space-evenly;
+     position:sticky;
+    top:100px;
+    z-index: 10;
+    /* background-color: #008cff; */
+}
+/* .all-image{
+    width:40px;
+    display: block;
+} */
+
+
+
+.wedding a{
+    font-size: 12px;
+}
+
+.all-item a{
+    font-size: 12px;
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    padding: 5px;
+    margin-right: 20px;
+    
+}
+
+.all-item:hover{
+    background: linear-gradient(to bottom right,#008cff,#e100ff);
+    border-radius: 10px;
+
+}
+
+
+
+.all-item i{
+    font-size: 30px;
+    display: block;
+    color:gray;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.all-item{
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.kids-content{
+    margin-left: 10px;
+}
+
+.fashion-content{
+    font-size: 20px;
+}
+/* -----------------main-scroll-bar--------------- */
+
+.paan-corner-main{
+  width:95%;
+  height:200px; 
+  background-image: url(./green.jpg); 
+  border-radius: 20px;
+  margin-left:15px;
+
+}
+
+.paan{
+    font-size: 40px;
+    color:white;
+    font-weight: bold;
+   margin-left:30px;
+  
+}
+
+.paan-content{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    margin-left:100px;
+}
+
+
+
+.paan-image{
+    width:90%;   
+    margin-left: 70px;
+
+}
+
+.paan-shop{
+  width:100px;
+  height:30px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 30px;
+
+}
+
+.paan-corner-shopnow{
+    text-decoration: none;
+    color:green;
+   
+
+}
+
+
+
+
+/* ------------paan corner---------- */
+
+.pharmacy{
+    width:400px;
+    height:300px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap:100px; 
+    margin-left: 30px;
+}
+
+.pharmacy-background{
+    width:100%;
+    height:100%;
+    background-image:url(./medicine.jpg) ;
+    background-position: center;
+    background-size: 400px;
+    margin-left: 80px;
+    border-radius: 10px;    
+}
+
+
+.pharmacy-content{
+    color:white;
+    font-size: 40px;
+    margin-left: 15px;   
+}
+
+.pharmacy-content2{
+    color:white;
+    font-size: 23px;
+    margin-left:15px;
+    margin-top:15px;
+    line-height: 1.3;
+}
+
+
+.pharmacy-order{
+    text-decoration: none;
+    color:black;
+    width:30px;
+    height:10px;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+/* -------------pharmacy care------------ */
+
+.pet-care{
+   width:100%;
+   height:100%;
+    background-image: url(./pet-care.jpg);  
+   background-size:cover;
+    border-radius: 10px;  
+}
+
+.pet-care-content{
+    font-size: 35px;
+    color:white;
+    margin-top: 35px;
+    margin-left: 15px;   
+}
+/* --------------pet care--------------- */
+
+.baby-care{
+    width:100%;
+    height:100%;
+    background-image: url(./baby-care.avif);
+    background-size: cover;
+    margin-left: -70px;
+    border-radius: 10px;
+   
+}
+
+.baby-content{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.baby-content2{
+    text-align: center;
+    text-align: justify;
+    font-size:23px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.baby-order{
+    text-decoration: none;
+    color:white;
+    width:50px;
+    height:10px;
+    padding:10px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 270px;
+   
+}
+/* ---------------baby care-------------- */
+
+
+.daily-bread{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow-x:scroll;
+   scroll-behavior: smooth;
+   
+   scrollbar-width: none;
+
+   
+}
+
+.daily-heading{
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-left:70px;
+    font-size: 28px;
+}
+
+.aavin{
+    width:200px;
+    height:260px;
+    border:2px solid rgb(244, 239, 239);
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   
+}
+
+.milk{
+    width:170px;
+    margin-left:13px;
+    margin-top:-15px;
+}
+
+.aavin p{
+    font-size: 17px;
+    margin-top:-18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.aavin .liter{
+    /* margin-left: 30px; */
+    color:rgb(91, 89, 89);
+    font-size: 12px;
+    margin-right: 100px;
+}
+
+.aavin span{
+    margin-left: 20px;
+   position:relative;
+   bottom:10px;
+   font-weight: 600;
+ 
+}
+
+.aavin button{  
+    border:1px solid rgb(37, 180, 37);
+    background-color: rgb(225, 245, 225);
+    width:70px;
+    padding:8px;
+    border-radius: 10px;
+   
+    position: relative;
+    bottom:15px;
+    left:60px;
+    
+}
+
+.curd-1{
+    width:110px;
+    margin-left:40px;
+    text-align: justify;
+   
+}
+
+.curd-2{
+    margin-top:30px;
+}
+/* ---------------Daily Brerad and Egg------------- */
+
+.snacks-main{
+    width:100%;
+    /* height:350px; */
+
+}
+
+.snacks{
+    width:220px;
+    height:auto;
+     border:2px solid rgb(244, 239, 239);
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+     margin-left: 20px;
+     border-radius: 10px;
+     position:relative;
+     /* bottom:20px */
+    
+}
+
+.offer-snacks{
+    font-size: 13px;
+    width:40px;
+    height:40px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: skyblue;
+    padding:5px;
+    color:white;
+    font-weight: bold;
+    margin-left:20px;
+}
+
+.mixture-image{
+    width:70%;
+    position:relative;
+    bottom:10px;
+    left:30px;
+
+}
+
+.delivery-time-snacks{
+    width:30%;
+    height:100%;
+    background-color: rgb(244, 240, 240);
+    border-radius: 10px;
+    padding:1px;
+    font-size: 12px;
+    text-align: center;
+    position:relative;
+    bottom:20px;
+    left:10px;
+}
+
+.delivery-time-snacks i{
+    font-size: 10px;
+    margin-left:-5px;
+
+  
+}
+
+.snacks-contant{
+    line-height: 1.3;
+    font-weight: 600;
+    position:relative;
+    bottom:10px;
+    left:15px;
+}
+
+.snacks-quantity{
+    color:gray;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+
+div .rupees{
+    font-weight: 600;
+
+}
+div .rupees-wrong{
+   text-decoration: line-through;
+   font-size: 12px;
+   margin-left: 15px;
+   position:relative;
+   top:25px;
+}
+
+.rupees{
+    font-size: 15px;
+    margin-left:15px;
+   position:relative;
+   top:30px;
+    
+}
+
+
+.choco button{
+    border:1px solid rgb(37, 180, 37);
+    background-color: rgb(225, 245, 225);
+    width:80px;
+    padding:8px;
+    border-radius: 5px;
+    position:relative;
+    bottom:10px;
+    left:120px;
+    
+
+}
+
+
+
+.snacks-main{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:20px;
+    overflow-x: scroll;
+    scrollbar-width:none;
+}
+
+/* -------------Drinks and water------------- */
+
+
+
+.main-footer{
+    display: flex;
+}
+
+
+.footer{
+   margin-left:100px;
+   margin-top:100px;
+   color:gray;
+   line-height: 1.5;
+  
+  
+}
+
+.second-line{
+    margin-top: 150px;
+    color:gray;
+    line-height: 1.5;
+    margin-left:50px;
+   
+}
+
+.third-line{
+     color:gray;
+    line-height: 1.5;
+    margin-top:155px;
+    margin-left:90px;
+}
+
+.categories{
+     color:gray;
+    line-height: 2.2;
+    margin-top:100px;
+    margin-left:150px;
+}
+
+.footer-heading{
+    color:black;
+
+}
+
+.last-footer{
+    display:flex;
+}
+
+
+
+.main-footer p{
+    font-size: 18px;
+}
+
+.link-footer{
+    color:gray;
+    font-size: 14px;
+    margin-top:60px;
+    margin-left: 350px;
+}
+
+.download{
+    margin-top:57px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.download p{
+    display: flex;
+
+}
+
+i{
+    margin-left: 15px;
+}
+/* ---------------footer------------- */
+
+
+
+ @media (max-width:480px){
+     
+   header{
+    height:100px;
+    width:100%;
+
+  }
+
+  .blinkit{
+   display: none;
+
+  }
+
+  .deliver-timing{
+     font-size:17px;
+     /* width:2000px; */
+     padding: 0;
+     margin-top: 20px;
+     margin-left: 10px;
+    
+    
+  }
+
+  .address{
+    font-size:20px;
+    width:100%;
+    color:gray;
+  
+  }
+  ul{
+    position:relative;
+    width:100%;
+  }
+
+  div .login{
+        position: relative;
+        
+  }
+
+ 
+
+  .login{
+    font-size: 15px;
+    padding:0;
+    width:100%;
+    position:absolute;
+    right: 130px;  
+  }
+
+  .card{
+    position: absolute;
+    width:20%;
+    right:-30px;
+    bottom: 15px;
+  }
+
+
+ .search{
+    display:none;
+  }
+
+  .input{
+    width:100%;
+    height:90%;
+     background-color:rgb(249, 245, 240);
+  }
+
+  .input1{
+    display: block;
+    height:40px;
+    border-radius: 10px;
+    margin-left:8px;
+    /* margin-top:10px; */
+    border:1px solid lightgrey;
+  }
+
+
+
+
+  /* ------------navbar------- */
+
+  .main-scroll-bar{
+    overflow-x: scroll;
+    scrollbar-width: none;
+    height:50px;
+  }
+
+  .all-item i{
+    font-size: 15px;
+    margin-left: 20px;
+   
+  }
+
+  .all-item a{
+    /* margin-right: 20px; */
+  }
+
+
+  /* --------scroll-bar------------- */
+  .paan-corner-main{
+    margin-left:10px;
+    
+  
+  }
+
+  .paan{
+     font-size: 30px;
+     text-align: center;
+     
+  }
+
+  .paan-content{
+    font-size: 20px;
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .paan-shop{
+    margin-left: 110px;
+
+  }
+  /* -------paan-corner-------- */
+
+  .pharmacy{
+    display:block;
+    margin-left: 25px;
+  
+  }
+
+  .pharmacy-content{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .pharmacy-content2{
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .pharmacy-background{
+    margin-left: 10px;
+    width:75%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .pet-care{
+    margin-left: 10px;
+    width:75%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:100%;
+    position: relative;
+   
+  }
+  .pet-care-content{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .pharmacy-content2{
+     font-size: 20px;
+     /* margin-top: 10px; */
+  }
+
+  .pharmacy-order{
+    margin-bottom: 20px;
+   
+  }
+
+  .pet-order{
+    position: relative;
+    bottom: 20px;
+  }
+
+  .baby-care{
+    margin-left: 10px;
+    width:75%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:100%;
+    position: relative;
+  }
+
+  .baby-content{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .baby-content2{
+     font-size: 20px;
+  }
+
+  .baby-order{
+      margin-left: 25px;
+     position: relative;
+     bottom: 25px;
+  }
+
+
+
+
+
+
+  /* --------all-item------- */
+
+  .daily-heading{
+    font-size: 23px;
+    text-align: center;
+    margin-top:690px;
+    margin-left: 10px;
+   
+    
+  }
+
+  .aavin{
+    margin-left:60px;
+  }
+
+  .daily-bread{
+   /* display: grid;
+   grid-template-columns: 1fr;*/
+   justify-content:space-evenly;
+   align-items:center; 
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+
+  }
+
+
+ .snacks-heading{
+    margin-top:0px;
+    margin-left: 0;
+ }
+
+   .snacks-main{
+    margin-top: 20px;
+    /* grid-template-columns: 1fr; */
+      justify-content:space-evenly;
+   align-items:center; 
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+  
+  }
+
+  .snacks{
+    margin-left: 60px;
+  }
+
+  .cool-heading{
+    margin-top:0;
+    margin-left: 0;
+  } 
+  /* ----------all product--------------- */
+
+
+
+.main-footer{
+    display: block;
+   }
+
+
+ .footer{
+    margin-left:50px;
+    margin-top: 50px;  
+  }
+
+.footer-heading1{
+ margin-left:50px;
+    
+ }
+
+.second-line{
+    margin-left:0;
+}
+
+.third-line{
+   
+    margin-left: 50px; 
+    margin-top:20px;
+}
+
+.footer,.second-line,.third-line{
+   display:inline-block;
+}
+
+   footer{
+    margin-top:0;
+  } 
+
+
+  .categories{
+    margin-left: 150px;
+    margin-top:20px;
+  }
+
+.last-footer{
+    display:block;
+
+}
+
+.link-footer{
+    margin-left: 100px;
+}
+
+.download p{
+  margin-left: -70px;
+}
+
+ }
+ /* -----mediaquary 480px------- */
+
+ @media(min-width:481px) and (max-width:768px) {
+      
+   header{
+    height:100px;
+    width:100%;
+
+  }
+
+  .blinkit{
+   display: none;
+
+  }
+
+  .deliver-timing{
+     font-size:17px;
+     /* width:2000px; */
+     padding: 0;
+     margin-top: 20px;
+     margin-left: 10px;
+    
+    
+  }
+
+  .address{
+    font-size:20px;
+    width:100%;
+    color:gray;
+  
+  }
+  ul{
+    position:relative;
+  }
+
+  div .login{
+        position: relative;
+        
+  }
+
+ 
+
+  .login{
+    font-size: 15px;
+    padding:0;
+    width:100%;
+    position:absolute;
+    right: 170px;  
+  
+  }
+
+  .card{
+    position: absolute;
+    width:15%;
+    right:20px;
+    bottom: 15px;
+  
+  }
+
+
+ .search{
+    display:none;
+  }
+
+  .input{
+    width:100%;
+    height:90%;
+     background-color:rgb(249, 245, 240);
+  }
+
+  .input1{
+    display: block;
+    height:40px;
+    border-radius: 10px;
+    margin-left:8px;
+    /* margin-top:10px; */
+    border:1px solid lightgrey;
+
+  }
+
+   /* ------------navbar------- */
+  .main-scroll-bar{
+    overflow-x: scroll;
+    scrollbar-width: none;
+    height:60px;
+    /* margin-top:10px; */
+
+  }
+  .all-item i{
+    margin-top:15px;
+    font-size: 20px;
+    margin-left: 20px; 
+  }
+
+    /* --------scroll-bar------------- */
+  .paan-corner-main{
+    margin-left:10px;
+  }
+
+  .paan{
+     font-size: 35px;
+     text-align: center;
+     
+  }
+
+  .paan-content{
+    font-size: 25px;
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .paan-shop{
+    margin-left: 30px;
+
+  }
+
+  
+
+/* -------paan-corner-------- */
+
+  .pharmacy{
+    display:block;
+    margin-left: 10px;
+  }
+
+  .pharmacy-content{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .pharmacy-content2{
+    font-size: 22px;
+    margin-top: 5px;
+  }
+
+  .pharmacy-background{
+    margin-left: 35px;
+    width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  /* ----------pharmacy------------- */
+
+ 
+
+  .pet-care{
+
+    margin-left: 10px;
+    width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 35px;
+  }
+
+  .pet-care-content{
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .pharmacy-content2{
+     font-size: 25px;
+     /* margin-top: 10px; */
+  }
+
+  .pharmacy-order{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left:100px;
+  }
+
+  .pet-order{
+    position: relative;
+    bottom: 20px;
+  }
+
+ 
+  /* ----------pet care-------------- */
+
+   .baby-care{
+    margin-left: 35px;
+    width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:100%;
+    position: relative;
+  }
+
+  .baby-content{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .baby-content2{
+     font-size: 25px;
+  }
+
+  .baby-order{
+      margin-left: 65px;
+     position: relative;
+     bottom: 25px;
+  }
+
+ /* -------------- baby product-------------- */
+
+    .daily-heading{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top:690px; 
+  }
+
+    .cool-heading{
+    margin-top:0;
+    margin-left: 0;
+  } 
+
+  .aavin{
+    margin-left:20px;
+  }
+
+  .daily-bread{
+   /* display: grid;
+   grid-template-columns: 1fr 1fr; */
+     justify-content:space-evenly;
+   align-items:center; 
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+  }
+
+
+ .snacks-heading{
+    margin-top:2px;
+    margin-left: 0;
+ }
+
+   .snacks-main{
+    margin-top: 20px;
+    /* grid-template-columns: 1fr 1fr; */
+      justify-content:space-evenly;
+   align-items:center; 
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+  }
+
+  .snacks{
+    margin-left: 3px;
+  }
+   /* -------all product-------------- */
+
+.main-footer{
+    display: block;
+   }
+
+
+ .footer{
+    margin-left:50px;
+    margin-top: 50px;  
+  }
+
+  .footer-heading2{
+    /* margin-left:60px; */
+    text-align: center;
+    
+  }
+
+
+.second-line{
+    margin-left:0;
+}
+
+.third-line{
+    margin-left: 50px; 
+    margin-top:20px;
+}
+
+.footer,.second-line,.third-line{
+   display:inline-block;
+   margin-left:120px;
+ 
+}
+
+
+
+
+  .categories{
+    display:inline-block;
+    margin-left: 90px;
+    margin-top:50px;
+
+  }
+.last-footer{
+    display:block;
+
+}
+
+.link-footer{
+    margin-left: 200px;
+  
+}
+
+.download p{
+    margin-left: 50px;
+}
+ }
+ /* ------------min-width:481px) and (max-width:768px) --------- */
+
+ @media(min-width:769px) and (max-width:1024px) {
+
+         header{
+    height:100px;
+    width:100%;
+
+  }
+
+  .blinkit{
+   /* display: none; */
+
+  }
+
+  .deliver-timing{
+     font-size:23px;
+     /* width:2000px; */
+     padding: 0;
+     margin-top: 20px;
+     margin-left: 10px;
+    
+    
+  }
+
+  .address{
+    font-size:20px;
+    width:100%;
+    color:gray;
+  
+  }
+  ul{
+    position:relative;
+  }
+
+  div .login{
+        position: relative;
+        
+  }
+
+ 
+
+  .login{
+    font-size: 20px;
+    padding:0;
+    width:100%;
+    position:absolute;
+    right: 300px;  
+  
+  }
+
+  .card{
+    position: absolute;
+    width:15%;
+    right:50px;
+    bottom: 15px;
+  
+  }
+
+
+ .search{
+    display:none;
+  }
+
+  .input{
+    width:100%;
+     background-color:rgb(249, 245, 240);
+  }
+
+  .input1{
+    display: block;
+    height:40px;
+    border-radius: 10px;
+    margin-left:8px;
+    /* margin-top:10px; */
+    border:1px solid lightgrey;
+
+  }
+
+
+/* 
+  .input1{
+    display: block;
+    border-radius: 10px;
+    margin-left:8px;
+    margin-top:10px;
+    border:1px solid;
+  } */
+
+   /* ------------navbar------- */
+  .main-scroll-bar{
+    overflow-x: scroll;
+    scrollbar-width: none;
+    height:80px;
+    
+
+  }
+  .all-item i{
+    margin-top:25px;
+    font-size: 25px;
+    margin-left: 20px; 
+  }
+
+    /* --------scroll-bar------------- */
+  .paan-corner-main{
+    margin-left:10px;
+  }
+
+  .paan{
+     font-size: 40px;
+     text-align: center;
+     
+  }
+
+  .paan-content{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .paan-shop{
+    margin-left: 30px;
+   
+
+  }
+
+  
+
+/* -------paan-corner-------- */
+
+.pharmacy{
+    /* display:block; */
+    display: none;
+  }
+
+  .pharmacy-content{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .pharmacy-content2{
+    font-size: 22px;
+    margin-top: 5px;
+  }
+
+  .pharmacy-background{
+    margin-left: 35px;
+    width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  /* ----------pharmacy------------- */
+
+ 
+
+  .pet-care{
+
+    margin-left: 10px;
+    width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 0;
+    display: none;
+   
+  }
+  .pet-care-content{
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .pharmacy-content2{
+     font-size: 25px;
+     /* margin-top: 10px; */
+  }
+
+  .pharmacy-order{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left:100px;
+  }
+
+  .pet-order{
+    position: relative;
+    bottom: 20px;
+  }
+
+ 
+  /* ----------pet care-------------- */
+
+   .baby-care{
+    margin-left: 35px;
+    width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:100%;
+    position: relative;
+  }
+
+  .baby-content{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .baby-content2{
+     font-size: 25px;
+  }
+
+  .baby-order{
+      margin-left: 65px;
+     position: relative;
+     bottom: 25px;
+  }
+
+ /* -------------- baby product-------------- */
+    .daily-heading{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 10px;
+    /* margin-top:690px; */
+  }
+
+  .aavin{
+    margin-left:20px;
+  }
+
+  .daily-bread{
+   /* display: grid;
+   grid-template-columns: 1fr 1fr; */
+     justify-content:space-evenly;
+   align-items:center; 
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+  }
+
+
+ .snacks-heading{
+    margin-top:2px;
+    margin-left: 0;
+ }
+
+   .snacks-main{
+    margin-top: 20px;
+    /* grid-template-columns: 1fr 1fr; */
+      justify-content:space-evenly;
+   align-items:center; 
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+  }
+
+  .snacks{
+    margin-left: 3px;
+  }
+   /* -------all product-------------- */
+
+.main-footer{
+    display: block;
+   }
+
+
+ .footer{
+    margin-left:50px;
+    margin-top: 50px;  
+  }
+
+  .footer-heading2{
+    /* margin-left:60px; */
+    text-align: center;
+    
+  }
+
+
+.second-line{
+    margin-left:0;
+}
+
+.third-line{
+    margin-left: 50px; 
+    margin-top:20px;
+}
+
+.footer,.second-line,.third-line{
+   display:inline-block;
+   margin-left:120px;
+
+ 
+}
+
+
+
+
+  .categories{
+    display:inline-block;
+    margin-left: 90px;
+    margin-top:50px;
+
+  }
+.last-footer{
+    display:block;
+
+}
+
+.link-footer{
+    margin-left: 200px;
+  
+}
+
+.download p{
+    margin-left: 50px;
+}
+
+
+ }
+/* --------------media(min-width:769px) and (max-width:1024px)-------- */
+
+
+   @media(min-width:1025px) and (max-width:1200px) {
+     
+   .card{
+    position:relative;
+    left:40px;
+   }
+
+   .main-scroll-bar{
+    overflow-x: scroll;
+    scrollbar-width: none;
+   }
+
+   .baby-care{
+    display:none;
+   }
+
+
+
+   .categories{
+    margin-left:10px;
+   }
+   
+  .third-line{
+    margin-left: 20px;
+  }
+
+  .categories{
+    margin-left: 50px;
+  }
+
+  .link-footer{
+    margin-left: 100px;
+    font-size: 25px;
+  }
+
+  .download{
+    font-size: 20px;
+  }
+
+   }
+
+   /* --------------media(min-width:1025px) and (max-width:1200px)-------- */
+
+
+
+ @media(min-width:1201px) and (max-width:1399px){
+
+    .main-scroll-bar{
+    overflow-x: scroll;
+    scrollbar-width: none;
+    height:80px;
+    
+
+  }
+  .all-item i{
+    margin-top:25px;
+    font-size: 25px;
+    margin-left: 20px; 
+  }
+
+    /* --------scroll-bar------------- */
+
+
+
+.pet-care{
+  /* margin-left: 150px; */
+}
+
+.categories{
+  margin-left: 100px;
+}
+
+   }
+
+   
+   
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
